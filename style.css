@@ -1,0 +1,124 @@
+/*
+Colors:
+Different shades of a similar color
+#382643
+#524B57
+#33233D
+#55008A
+#B37AD6
+#FFFFFF
+*/
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h1,
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  clear: both;
+}
+
+body {
+  padding: 5%;
+  background: #382643;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid white;
+  width: 600px;
+  padding: 2%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  padding-bottom: 8px;
+  font-size: 24px;
+  text-align: center;
+}
+
+li.units {
+  list-style-type: square;
+}
+
+h2.units,
+p.units,
+ul.units, #units {
+  position: static;
+  text-align:left;
+  margin-left: 5px;
+  padding: 2px;
+  clear: both;
+}
+
+li.units {
+  margin-left: 50px;
+}
+
+nav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid gray;
+  transition: background-color 1s, color 1s;
+  text-align: center;
+  padding: 12px 12px;
+  padding-bottom: 12px;
+  width: 120px;
+  height: 30px;
+}
+
+#skip {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid gray;
+  transition: background-color 1s, color 1s;
+  text-align: center;
+  padding: 12px 12px;
+  padding-bottom: 12px;
+  width: 160px;
+  height: 40px;
+} 
+
+nav li a:hover, #skip:hover {
+  background-color: white;
+  color: #382643;
+  transition: background-color 1s, color 1s;
+}
+
+a.active {
+  background-color: white;
+  color: #382643;
+}
+
+div.links{
+  text-align:center;
+}
